@@ -43,7 +43,7 @@ git clone https://github.com/ga0125/todolist.git
 2. Setup your Machine:
 
 ```
-cd amazing-catalog-project
+cd todoWeb
 ./project_config.sh
 ```
 *PS: The project_config.sh script will install all the necessary dependencies to run our application ;)*
