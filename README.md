@@ -23,21 +23,23 @@ Hey bro! This is a simple web app ToDo List using Django. Here we go!
 
 ## •	Adding a Task:
 
-	o Add a Tile (obligatory field) -** You can insert any char value with till 80 characters;
+	o Add a Tile (obligatory field) - You can insert any char value with till 80 characters;
 
-	o Add a Description (obligatory field) -** You can add any char value with till 200 characters;
+	o Add a Description (obligatory field) - You can add any char value with till 200 characters;
 	
-	o Choose a Deadline -** On the “Datetimefield” you can choose a deadline for this task to be inserted. If you don’t set a 	  deadline, the system will be inserting the current day by default;
+	o Choose a Deadline - On the “Datetimefield” you can choose a deadline for this task to be inserted. If you don’t set a 	  deadline, the system will be inserting the current day by default;
 	
 	PS: You can press “enter” or click on “+ Task” to add you task.
 
 ## • Controlling a Task:
 
-	- Task line added - Every task, after added on the system, will be showed for the end user like a single line showing only the task Title and some action buttons;
+	o Task line added - Every task, after added on the system, will be showed for the end user like a single line showing only the task Title and some action buttons;
 
-	- Description and deadline task – You can find the “Description button ( ˅ )” on the right div side, when you click the description and deadline task will be  appear on the screen;
-	- Exclude a task – Now, if you need exclude a task, you can find a “trash icon” besides of the “Description button”. So, be careful, because every task excluded will not be recovered!
-	- Complete a Task – When you finish your task (congrats bro!) you just need check the checkbox button and finish it. Off course, every task checked as completed you cannot come back, so make sure that you finish that task at all hehehe;
+	o Description and deadline task – You can find the “Description button ( ˅ )” on the right div side, when you click the description and deadline task will be  appear on the screen;
+	
+	o Exclude a task – Now, if you need exclude a task, you can find a “trash icon” besides of the “Description button”. So, be careful, because every task excluded will not be recovered!
+	
+	o Complete a Task – When you finish your task (congrats bro!) you just need check the checkbox button and finish it. Off course, every task checked as completed you cannot come back, so make sure that you finish that task at all hehehe;
 
 ### •	Backend
 
