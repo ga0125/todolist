@@ -43,10 +43,8 @@ git clone https://github.com/ga0125/todolist.git
 2. Setup your Machine:
 
 ```
-cd todoWeb
-./project_config.sh
+pip install -r requirements.txt
 ```
-*PS: The project_config.sh script will install all the necessary dependencies to run our application ;)*
 
 # Execution
 1. To execute My Tasks, please run the following command on a terminal:
