@@ -34,6 +34,8 @@ To run this applcation you'll need install these guys below:
 
 * Python 3 installed
 
+* Django framework
+
 # Installation
 
 1. Please clone our application running the following command on a terminal: 
