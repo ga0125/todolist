@@ -4,9 +4,11 @@ Hey bro! This is a simple web app ToDo List using Django. Here we go!
 #Application accesses
 
 #h2User Django-admin
+
 **user:** admin | password: admin
 
 #h2Pages
+
 **Web application:** [My Tasks](http://127.0.0.1:8000)
 **Admin Page:** [My Tasks - Admin](http://127.0.0.1:8000/admin)
 **APIs:** [My Tasks - API](http://127.0.0.1:8000/api)
