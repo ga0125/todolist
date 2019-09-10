@@ -1,0 +1,197 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.bg-dark{
+	background: #232F45!important;
+}
+.panel-todo {
+	width: 50%;
+	position: relative;
+}
+.title-todo{
+	text-align: center;
+	height:35px;
+	background: #232F45;
+	border: 1px solid #232F45;
+	border-radius: 3px;
+  	box-shadow: 0 4px 4px -2px #989898;
+  	-moz-box-shadow: 0 4px 4px -2px #989898;
+  	-webkit-box-shadow: 0 4px 4px -2px #989898;
+}
+.logo-yung{	
+	margin: 0% 0% 0% -2%;
+    display: inline-block;
+    width: 116px;
+    height: 32px;
+}
+.task-content{
+	margin-top: 3%;
+}
+.todo{
+	margin-top: 1%;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+  	box-shadow: 0 4px 4px -2px #989898;
+  	-moz-box-shadow: 0 4px 4px -2px #989898;
+  	-webkit-box-shadow: 0 4px 4px -2px #989898;
+}
+.task{
+	list-style-type: none;
+	width: 100%;	
+}
+.items{
+	border: 1px solid #EDEDED;
+}
+label { 
+  cursor: pointer;
+  background-color: #fff;
+  border: 0px solid #fff;
+}
+
+/* CSS padrão da div */
+.desc-li {
+	width: 100%;
+	margin-top: 0.3%;
+	border: 1px solid #EDEDED;
+}
+.desc {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #56686e;
+	list-style-type: none;
+}
+.txt-calendar{
+	margin-top: 0.3%;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #56686e;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	font-weight: bold;
+}
+.p-desc{
+	font-size: 15px;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.txt-date{
+	margin-top: 0.3%;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #56686e;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	margin-left: 1%;
+}
+.btn-custom{
+	text-decoration:none;
+	float: right;
+	margin: 4px 6px 0px 4px;
+	color: #DEE2E6!important;
+}
+.btn-custom:hover {
+	text-decoration:none;
+	color: #E62254!important;
+}
+.title, .form-title {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;	
+	color: #3e5055;
+}
+.plus-task{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;	
+}
+.title-complete{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;	
+	color: #d2d5d9;
+	text-decoration: line-through;	
+}
+.task-done{
+	color:#00a335;
+	background-color: : #fff;
+}
+.custom-control-input {
+    position: relative!important;
+}
+.form-title{
+	width: 100%;
+	border: 1px solid #DEE2E6;	
+	border-radius: 4px 4px 0px 0px;
+}
+
+.form-desc{​
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #56686e;
+	overflow-wrap: break-word;
+	width: 100%;
+	height: 58px;
+	border: 1px solid #DEE2E6;
+	margin-top: -1px;
+}
+.calendar{
+	margin-top: -0.2%;
+	width: 100%;
+	border: 1px solid #DEE2E6;
+}
+.icon-calendar{
+	position: relative;
+	width: 4%;
+	float: left;
+   margin: 0.5% 0% 0% 2%;
+   color: #E62254!important;
+}
+.act-calendar{
+	position: relative;
+	width: 28%;
+	float: left;
+	margin: -0.2% 0% 0% 0.5%;	
+}
+.add-task{
+	margin-top: 1%;
+	border-radius: 3px;
+  	box-shadow: 0 4px 4px -2px #DEE2E6;
+  	-moz-box-shadow: 0 4px 4px -2px #DEE2E6;
+  	-webkit-box-shadow: 0 4px 4px 2px #DEE2E6;	
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	background-color: #E62254!important;
+}
+.input-group{
+	width: 106%!important;
+}
+.btn-add{
+	border-radius: 0px 0px 4px 4px;
+	width: 100%;
+	background: #fff;
+	color: #E62254!important;
+	border-color: #DEE2E6!important;
+}
+.btn-add:hover{
+	background: #E62254!important;
+	color: #fff!important;
+	border-color: #E62254!important;
+}
+.add-div{
+	width: 100%;
+	margin-top: -0.2%;
+}
+.deadline{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #56686e;
+	width: 100%;
+	border: 0px;	
+	border-radius: 0px 0px 4px 4px;
+}
