@@ -4,30 +4,30 @@ Hey bro! This is a simple web app ToDo List using Django. Here we go!
 
 # Project Structure
 
-|-- TodoWeb                         // base PATH
-    |-- TodoApp                     // App PATH of Django, here you can find all created scripts for this application 
-        |-- migrations              // migrations from DB
-	|-- static                  // Frontend libs. You'll find (boostrap, js and css libs)
-	|-- templates               // template of the application
-	    |-- todoApp             // application PATH
-	        |-- index.html      // template HTML	
-	|-- __init__.py             // generated config Django file
-	|-- admin.py                // We can register the models created to the Django admin
-	|-- apps.py                 // Register our application
-	|-- forms.py                // File created for to format the datas catched from the Frontend (index.html)
-	|-- models.py               // Our model created, we create a link between DB and the viwes.py
-	|-- serializers.py          // Created to serialize the API's calls
-	|-- tests.py                // Space to create unit tests
-	|-- urls.py                 // This file is linked with the urls.py from the TodoWeb PATH. We setup our urls calls here
-	|-- views.py                // Every request generated of the application (including the API construction)
-    |-- TodoWeb		            // configs PATH
-	|-- __init__.py             // generated config Django file
-	|-- urls.py                 // generated config Django file. We've set up our urls calls to the urls.py from todoApp
-	|-- wgsi.py                 // generated config Django file
-    |-- __init__.py                 // generated config Django file
-    |-- db.sqlite3                  // Our database of the application
-    |-- .gitignore                  // I've set up some files that isn't necessary to clone our project (config from GitHub)
-    |-- readme.md                   // This file
+	|-- TodoWeb                         // base PATH
+	    |-- TodoApp                     // App PATH of Django, here you can find all created scripts for this application 
+		|-- migrations              // migrations from DB
+		|-- static                  // Frontend libs. You'll find (boostrap, js and css libs)
+		|-- templates               // template of the application
+		    |-- todoApp             // application PATH
+			|-- index.html      // template HTML	
+		|-- __init__.py             // generated config Django file
+		|-- admin.py                // We can register the models created to the Django admin
+		|-- apps.py                 // Register our application
+		|-- forms.py                // File created for to format the datas catched from the Frontend (index.html)
+		|-- models.py               // Our model created, we create a link between DB and the viwes.py
+		|-- serializers.py          // Created to serialize the API's calls
+		|-- tests.py                // Space to create unit tests
+		|-- urls.py                 // This file is linked with the urls.py from the TodoWeb PATH. We setup our urls calls here
+		|-- views.py                // Every request generated of the application (including the API construction)
+	    |-- TodoWeb		            // configs PATH
+		|-- __init__.py             // generated config Django file
+		|-- urls.py                 // generated config Django file. We've set up our urls calls to the urls.py from todoApp
+		|-- wgsi.py                 // generated config Django file
+	    |-- __init__.py                 // generated config Django file
+	    |-- db.sqlite3                  // Our database of the application
+	    |-- .gitignore                  // I've set up some files that isn't necessary to clone our project (config from GitHub)
+	    |-- readme.md                   // This file
     
 # Requirements
 To run this applcation you'll need install these guys below:
@@ -36,22 +36,25 @@ To run this applcation you'll need install these guys below:
 
 # Installation
 
-1. Please clone our application running the following command on a terminal: git clone https://github.com/ga0125/todolist.git
-
+1. Please clone our application running the following command on a terminal: 
+```
+git clone https://github.com/ga0125/todolist.git
+```
 2. Setup your Machine:
 
-'''
+```
 cd amazing-catalog-project
 ./project_config.sh
-'''
+```
 *PS: The project_config.sh script will install all the necessary dependencies to run our application ;)*
 
 # Execution
 1. To execute My Tasks, please run the following command on a terminal:
-'''
+```
 python manage.py migrate
 python manage.py runserver
-'''
+```
+
 2. Now you can access the application from your browser here [My Tasks](http://127.0.0.1:8000)
 
 # Application accesses
